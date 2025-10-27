@@ -1,0 +1,38 @@
+--------------------------------------
+System Health - CPU, Memory, DiskSpace, Uptime, Network details - 2025-10-27 05:20:00
+--------------------------------------
+
+ CPU Usage
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+
+ Memory Usage
+               total        used        free      shared  buff/cache   available
+Mem:           957Mi       712Mi        72Mi       888Ki       330Mi       244Mi
+Swap:             0B          0B          0B
+
+ Disk Space
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       6.8G  3.4G  3.4G  50% /
+tmpfs           479M     0  479M   0% /dev/shm
+tmpfs           192M  872K  191M   1% /run
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/xvda16     881M  151M  669M  19% /boot
+/dev/xvda15     105M  6.2M   99M   6% /boot/efi
+tmpfs            96M   16K   96M   1% /run/user/1000
+
+ Uptime
+ 05:20:00 up 32 min,  1 user,  load average: 0.00, 0.00, 0.00
+
+ Network Details
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: enX0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9001 qdisc fq_codel state UP group default qlen 1000
+    link/ether 0a:ff:ee:b8:f4:f5 brd ff:ff:ff:ff:ff:ff
+    inet 172.31.18.52/20 metric 100 brd 172.31.31.255 scope global dynamic enX0
+       valid_lft 3449sec preferred_lft 3449sec
+    inet6 fe80::8ff:eeff:feb8:f4f5/64 scope link 
+       valid_lft forever preferred_lft forever
